@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit" ,'Courier New', Courier, monospace;
+    font-size: 16px;
+    
+}
+
+.container {
+    background-color: hsl(212, 45%, 89%);
+    width: 90%;
+    height: 120vh;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding-top: 1.3rem;
+    box-shadow: inset 20px 23px 8px -8px rgba(0,0,0,0.1);
+}
+
+.inner-container {
+    margin: 4rem auto;
+    width: 30%;
+    height: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 20px 23px 8px -8px rgba(0,0,0,0.1);
+}
+
+.image-container img{
+    width: 100%;
+    margin: 0rem auto;
+    border-radius: 15px;
+}
+
+.texts {
+    width: 88%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1.6rem;
+}
+
+.texts h2 {
+    font-size: 24px;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
+}
+
+.texts p {
+    color: hsl(220, 15%, 55%);
+    width: 88%;
+}
